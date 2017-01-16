@@ -3,11 +3,11 @@ Python scripts to calculate the non-thermal distribution and rate coefficients f
 
 ## o1d_initial.py
 
-Calculates the non-thermal distribution for 16O, 17O, and 18O from ozone photolysis given an initial distribution.
+Calculates the initial non-thermal distribution for 16O, 17O, and 18O from ozone photolysis given a center of mass distribution.
 
 ## lorentz_gas_py35.py
 
-Calculates a non-thermal distribution for each isotope of O(1D) from the steady-state Boltzmann equation given an initial distribution. Then, the script uses the non-thermal distribution to calculate non-thermal rate coefficients for each reaction of O(1D) in the experiment. These rate coefficients can then be used in a standard chemical kinetics model (i.e., a differential equation integrator.) 
+Calculates a non-thermal distribution for each isotope of O(1D) from the steady-state Boltzmann equation given an initial distribution and reaction branching ratios. Then, the script uses the non-thermal distribution to calculate non-thermal rate coefficients for each reaction of O(1D) in the experiment. These rate coefficients can then be used in a standard chemical kinetics model (i.e., a differential equation integrator.) 
 
 ## Additional files
 
